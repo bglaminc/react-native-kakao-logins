@@ -163,7 +163,7 @@ typedef NS_ENUM(NSInteger, KOAgeAuthProperty) {
 
 /*!
  * @property automaticPeriodicRefresh
- * @abstract access token의 자동 주기적 갱신 여부 설정. 해당 값이 YES일 경우 handleDidBecomeActive시 및 특정 시간 주기로 필요시 토큰을 자동 갱신함.
+ * @abstract access token의 자동 주기적 갱신 여부 설정. 해당 값이 YES일 경우 handleDidBecomeActive 및 특정 시간 주기로 필요시 토큰을 자동 갱신함.
  * @discussion 값을 설정하면 현재 토큰 상태에 따라 타이머를 설정하거나 갱신이 필요할 경우 바로 갱신합니다. 이 속성 값은 기기에 저장되지 않고 메모리에서만 유지되므로 AppDelegate의 application:didFinishLaunchingWithOptions: 메소드 내에서 설정하는 것을 권장합니다. iOS 특성상 앱이 백그라운드로 내려가거나 suspend 상태가 되면 갱신이 불가능합니다.
  * @seealso token
  */
@@ -185,7 +185,6 @@ typedef NS_ENUM(NSInteger, KOAgeAuthProperty) {
 /*!
  @abstract 현재 session 정보
  */
-
 + (KOSession *)sharedSession;
 
 /*!

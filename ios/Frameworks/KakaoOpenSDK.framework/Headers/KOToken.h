@@ -76,7 +76,6 @@ NS_ASSUME_NONNULL_BEGIN
  * @method remainingExpireTime
  * @abstract accessTokenExpiresAt 까지 남은 시간
  * @return 음수이면 accessToken이 만료되었음을 의미함
- * @seealso
  */
 - (NSTimeInterval)remainingExpireTime;
 
