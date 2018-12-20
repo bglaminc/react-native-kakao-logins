@@ -1,4 +1,10 @@
 ## Changelogs
+- **[1.3.0]**
+  + Upgrade android kakaosdk to 1.15.1.
+- **[1.2.1]**
+  + Make sure to check whether KakaoSDK already has an adapter.
+- **[1.2.0]**
+  + Changed the way to import Kakao SDK. Do not need to extend `GlobalApplication`.
 - **[1.1.0]**
   + Prevent version miss match problem with other libraries when conflict exists
 - **[1.0.3]**
